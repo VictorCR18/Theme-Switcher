@@ -20,7 +20,8 @@ body {
   background-color: #F1F1F1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  user-select: none;
 }
 
 img {
@@ -29,12 +30,10 @@ img {
   margin: 5px;
 }
 
-
 .switch__container {
   margin: 30px auto;
   width: 150px;
   border-radius: 100px;
-  user-select: none;
 }
 
 .switch {
